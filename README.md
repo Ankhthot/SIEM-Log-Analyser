@@ -1,4 +1,4 @@
-# Mini-SIEM Log Analyzer
+# A Mini-SIEM Log Analyzer
 A lightweight Python-based Security Information and Event Management (SIEM) tool designed to parse server logs and detect potential security threats in real-time.
 
 ## 📌 Project Overview
@@ -22,7 +22,7 @@ The analyzer follows a standard SOC workflow:
 3.  **Correlation:** Groups events by IP and counts occurrences of specific status codes.
 4.  **Reporting:** Generates a summary dashboard highlighting "Top Talkers" and security alerts.
 
-## 📊 Sample Output
+## Sample Output
 ```text
 🔍 Starting Log Analysis...
 ========================================
